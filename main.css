@@ -1,0 +1,1404 @@
+* {margin:0 auto; padding: 0 auto;}
+
+body
+{
+    height: 100%;
+	font-family: Arial;
+}
+/*--------------- HEADER POCETAK --------*/
+#header
+{
+    width:100%;
+    height:125px;
+}
+
+#naslov
+{
+    width: 100%;
+    height:75px;
+    background-color: #101010 ;
+    color:#FFF;
+    font-size: 20px;
+}
+
+#naslov h1
+{
+    padding:20px;
+    width:25px;
+    float:left;
+    font-size: 50px;
+}
+
+#naslov h1 a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+#logovanje
+{
+   
+    float:right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#email
+{
+    width:140px;
+}
+
+#lozinka
+{
+    width:140px;
+}
+
+#registrujSe
+{
+    float:right;
+    margin-top: 5px;
+    background-color: #404040;
+    color:#FFF;
+    font-size: 14px;
+}
+
+#prijaviSe
+{
+    background-color: #404040;
+    color:#FFF;
+    font-size: 14px;
+}
+
+#meni
+{
+    width:100%;
+    height:50px;
+    background-color: #101010 ;
+    color:#FFF;
+    text-align:center;
+    font-size: 20px;
+    z-index:-1;
+}
+
+#meni li
+{
+    display:inline-block;
+	padding:0px 5px;
+	text-align:center;
+}
+
+#meni a
+{
+    text-decoration: none;
+    display:block;
+	padding:15px;
+    color:#FFF;
+}
+}
+
+/*--------------- HEADER KRAJ --------*/
+
+/*--------------- POCETNA SADRZAJ POCETAK --------*/
+
+
+
+#sadrzaj
+{
+    width:100%;
+    min-height:700px;
+    background-color: #404040;
+    padding-bottom: 50px;
+}
+
+
+
+#vesti
+{
+    min-width:960px;
+    min-height:300px;
+    background-color:  #101010;
+    margin-top:50px;
+    overflow: auto;
+	text-align:center;
+	color:#FFF;
+	
+}
+
+.vest1
+{
+    width:920px;
+    min-height:120px;
+	overflow: auto;
+    float:left;
+    margin:10px;
+	margin-left:20px;
+    background-color:#404040;
+    color:#FFF;
+    text-align: justify;
+}
+
+.vest1 a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+.vest1 h2
+{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.vest1 p
+{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#vest1
+{
+    min-width:920px;
+    min-height:170px;
+    background-color:#404040;
+    float:left;
+    margin:10px;
+	margin-left:20px;
+    text-align: justify;
+}
+
+#taSadrzaj
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#form_postavi_vest
+{
+	margin:10px;
+}
+
+/*--------------- POCETNA VESTI_KOMENTARI POCETAK --------*/
+
+#sadrzaj_komentari
+{
+    width:100%;
+    min-height:700px;
+    background-color: #404040;
+    padding-bottom: 50px;
+	padding-top:50px;
+	overflow: auto;
+}
+
+#kliknuta_vest
+{
+	width:920px;
+	height:700px;
+    background-color:#101010;
+    text-align: center;
+    color:#FFF;
+}
+
+#kliknuta_vest a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#kliknuta_vest p
+{
+	color:#FFF;
+	text-align:justify;
+}
+
+#forma_komentar
+{
+	float:right;
+	padding:5px;
+}
+
+#postavi_komentar
+{
+	float:right;
+	padding:5px;
+	margin-top:5px;
+	background-color:#404040;
+	color:#FFF;
+}
+
+#komentar
+{
+	width:500px; 
+	height:50px;
+}
+
+#postavljeni_komentari
+{
+	width:600px;
+    min-height:100px;
+	overflow:auto;
+    background-color:#404040;
+    float:right;
+    margin:5px;
+    text-align: center;
+}
+
+.komentar_i_vreme
+{
+	float:right;
+}
+
+.komentar_i_vreme p a:hover
+{
+	color:FFCC00;
+}
+
+#moras_biti
+{
+	float:right;
+}
+
+/*--------------- POCETNA SADRZAJ PAGINATON POCETAK --------*/
+
+#pagination
+{
+	width:930px;
+    height:20px;
+    background-color:#404040;
+	text-align:center;
+	padding:5px;
+}
+
+.pagination_numbers
+{
+	color:FFF;
+	text-decoration:none;
+}
+
+* {margin:0 auto; padding: 0 auto;}
+
+body
+{
+    height: 100%;
+	font-family: Arial;
+}
+/*--------------- HEADER POCETAK --------*/
+#header
+{
+    width:100%;
+    height:125px;
+}
+
+#naslov
+{
+    width: 100%;
+    height:75px;
+    background-color: #101010 ;
+    color:#FFF;
+    font-size: 20px;
+}
+
+#naslov h1
+{
+    padding:20px;
+    width:25px;
+    float:left;
+    font-size: 50px;
+}
+
+#naslov h1 a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+#logovanje
+{
+   
+    float:right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#email
+{
+    width:140px;
+}
+
+#lozinka
+{
+    width:140px;
+}
+
+#registrujSe
+{
+    float:right;
+    margin-top: 5px;
+    background-color: #404040;
+    color:#FFF;
+    font-size: 14px;
+}
+
+#prijaviSe
+{
+    background-color: #404040;
+    color:#FFF;
+    font-size: 14px;
+}
+
+#meni
+{
+    width:100%;
+    height:50px;
+    background-color: #101010 ;
+    color:#FFF;
+    text-align:center;
+    font-size: 20px;
+    z-index:-1;
+}
+
+#meni li
+{
+    display:inline-block;
+	padding:0px 5px;
+	text-align:center;
+}
+
+#meni a
+{
+    text-decoration: none;
+    display:block;
+	padding:15px;
+    color:#FFF;
+}
+
+#meni a:hover
+{
+	color:#FFCC00;
+}
+
+/*--------------- HEADER KRAJ --------*/
+
+/*--------------- POCETNA SADRZAJ POCETAK --------*/
+
+
+
+#sadrzaj
+{
+    width:100%;
+    min-height:700px;
+    background-color: #404040;
+    padding-bottom: 50px;
+}
+
+#vesti
+{
+    width:960px;
+    min-height:300px;
+    background-color:  #101010;
+    margin-top:50px;
+    overflow: auto;
+	text-align:center;
+	color:#FFF;
+	
+}
+
+.vest1
+{
+    width:920px;
+    min-height:120px;
+	overflow: auto;
+    float:left;
+    margin:10px;
+	margin-left:20px;
+    background-color:#404040;
+    color:#FFF;
+    text-align: justify;
+}
+
+.vest1 a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+.vest1 h2
+{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.vest1 p
+{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#vest1
+{
+    width:920px;
+    height:150px;
+    background-color:#404040;
+    float:left;
+    margin:10px;
+	margin-left:20px;
+    text-align: justify;
+}
+
+#taSadrzaj
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#form_postavi_vest
+{
+	margin:10px;
+}
+
+ #btnPostavi
+ {
+	background-color: #404040;
+    color:#FFF;
+ }
+
+/*--------------- POCETNA VESTI_KOMENTARI POCETAK --------*/
+
+#sadrzaj_komentari
+{
+    width:100%;
+    min-height:700px;
+    background-color: #404040;
+    padding-bottom: 50px;
+	padding-top:50px;
+	overflow: auto;
+}
+
+#kliknuta_vest
+{
+	width:920px;
+	height:700px;
+    background-color:#101010;
+    text-align: center;
+    color:#FFF;
+}
+
+#kliknuta_vest a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#kliknuta_vest p
+{
+	color:#FFF;
+	text-align:justify;
+}
+
+#forma_komentar
+{
+	float:right;
+	padding:5px;
+}
+
+#postavi_komentar
+{
+	float:right;
+	padding:5px;
+	margin-top:5px;
+}
+
+#komentar
+{
+	width:500px; 
+	height:50px;
+}
+
+#postavljeni_komentari
+{
+	width:600px;
+    min-height:100px;
+	overflow:auto;
+    background-color:#404040;
+    float:right;
+    margin:5px;
+    text-align: center;
+}
+
+.komentar_i_vreme
+{
+	float:right;
+}
+
+#moras_biti
+{
+	float:right;
+}
+
+/*--------------- POCETNA SADRZAJ PAGINATON POCETAK --------*/
+
+#pagination
+{
+	width:930px;
+    height:20px;
+    background-color:#404040;
+	text-align:center;
+	padding:5px;
+}
+
+.pagination_numbers
+{
+	color:FFF;
+	text-decoration:none;
+	padding:10px;
+}
+
+.pagination_numbers a
+{
+	color:FFF;
+	text-decoration:none;
+}
+
+.page_num_active
+{
+	background-color:#000;
+	color:#FFF;
+}
+
+.page_num_active a:hover
+{
+	background-color:#000;
+	color:#FFF;
+}
+
+.nazad
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+/*--------------- POCETNA SADRZAJ PAGINATION KRAJ --------*/
+
+
+/*--------------- REGISTRACIJA SADRZAJ POCETAK --------*/
+
+
+#tabelaRegistracija
+{
+    color:#FFF;
+    font-size:25px;
+}
+
+#tdRegistracija
+{
+    text-align: center;
+}
+
+#registracija
+{
+    background-color: #404040;
+    color:#FFF;
+    font-size: 14px;
+}
+
+header
+{
+    color:#FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+#header a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+
+#logovanje2
+{
+    float:right;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    width:300px;
+}
+
+#gore
+{
+    width:300px;
+    height:50px;
+	font-size:15px;
+}
+
+#levo
+{
+    float:left;
+}
+
+#desno
+{
+    float:right;
+    text-align: center;
+    width:300px;
+    margin-top: 15px;
+    z-index: 20;
+    z-index:99;  
+	position:absolute;
+}
+
+#desno ul
+{
+    list-style: none;
+}
+
+#desno ul li li
+{
+    display: none;
+    padding: 10px;
+    background-color:  #101010 ;
+    margin-right: 25px;
+    border-bottom:3px solid #404040;
+}
+
+#greske
+{
+	text-align:justify;
+	font-size:20px;
+	margin-left:400px;
+}
+
+/*--------------- REGISTRACIJA SADRZAJ KRAJ --------*/
+
+
+/*--------------- PROFIL SADRZAJ POCETAK --------*/
+
+#sadrzaj_profil
+{
+    width:100%;
+    height:650px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+#div_za_profil
+{
+    width:960px;
+    height: 600px;
+    background-color: #101010;
+    padding-top: 10px;
+}
+
+#gore_za_profil
+{
+    width:920px;
+    height:185px;
+    border:3px solid #404040;
+}
+
+#slika_i_dugme
+{
+    float:left;
+    width:300px;
+    height:185px;
+    border-right:3px solid #404040;
+    text-align: center;
+}
+
+.izaberi_sliku
+{
+	float:left;
+	margin-left:10px;
+}
+
+#btn_za_profilnu
+{
+	margin-top:5px;
+	background-color: #404040;
+    color:#FFF;
+}
+
+#profilna_slika
+{
+    padding: 15px;
+}
+
+#opis_profila
+{
+    color:#FFF;
+    text-align: justify;
+}
+
+#opis_profila h2
+{
+	text-align:center;
+}
+
+#ta_opis_profila
+{
+   
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#postavi_opis
+{
+    margin-left: 15px;
+}
+
+#dole_za_profil
+{
+    width:920px;
+    height:385px;
+    border:3px solid #404040;
+    margin-top: 10px;
+    color:#FFF;
+    text-align: center;
+}
+
+#vasi_komentari2
+{
+	width:910px;
+    height:100px;
+    background-color:#404040;
+    float:left;
+    margin:5px;
+    text-align: justify;
+}
+
+#vasi_komentari2 p a
+{
+	color:#FFCC00;
+}
+
+#desno a:hover
+{
+	color:#FFCC00;
+}
+
+/*--------------- PROFIL SADRZAJ KRAJ --------*/
+
+
+/*--------------- FOOTER POCETAK --------*/
+
+#footer
+{
+    width:100%;
+    height:125px;
+    background-color: #101010 ;
+    
+}
+
+#meniFooter
+{
+    width:100%;
+    height:50px;
+    background-color: #101010 ;
+    color:#FFF;
+    text-align:center;
+    font-size: 20px;
+}
+
+#meniFooter li
+{
+    display:inline-block;
+	padding:0px 5px;
+	text-align:center;
+}
+
+#meniFooter a
+{
+    text-decoration: none;
+    display:block;
+	padding:15px;
+    color:#FFF;
+}
+
+#meniFooter a:hover
+{
+	color:FFCC00;
+}
+
+#drustveneMreze
+{
+    width:100%;
+    height:50px;
+    background-color:#101010;
+    text-align: center;
+}
+
+.logo
+{
+    padding-left: 100px;
+}
+
+#copyright
+{
+    width:100%;
+    height:25px;
+    background-color: #101010;
+    color:#FFF;
+    text-align: center;
+    
+}
+
+#copyright a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+/*--------------- FOOTER KRAJ --------*/
+
+/*--------------- REGISTRACIJA SADRZAJ POCETAK --------*/
+
+
+#tabelaRegistracija
+{
+    color:#FFF;
+    font-size:25px;
+}
+
+#tdRegistracija
+{
+    text-align: center;
+}
+
+#registracija
+{
+    background-color: #404040;
+    color:#FFF;
+    font-size: 14px;
+}
+
+header
+{
+    color:#FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+#header a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+
+#logovanje2
+{
+    float:right;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    width:300px;
+}
+
+#gore
+{
+    width:300px;
+    height:50px;
+	font-size:15px;
+}
+
+#levo
+{
+    float:left;
+}
+
+#desno
+{
+    float:right;
+    text-align: center;
+    width:300px;
+    margin-top: 15px;
+    z-index: 20;
+    z-index:99;  
+	position:absolute;
+}
+
+#desno ul
+{
+    list-style: none;
+}
+
+#desno ul li li
+{
+    display: none;
+    padding: 10px;
+    background-color:  #101010 ;
+    margin-right: 25px;
+    border-bottom:3px solid #404040;
+}
+
+/*--------------- REGISTRACIJA SADRZAJ KRAJ --------*/
+
+
+/*--------------- PROFIL SADRZAJ POCETAK --------*/
+
+#sadrzaj_profil
+{
+    width:100%;
+    height:650px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+#div_za_profil
+{
+    width:960px;
+    height: 600px;
+    background-color: #101010;
+    padding-top: 10px;
+}
+
+#gore_za_profil
+{
+    width:920px;
+    height:185px;
+    border:3px solid #404040;
+}
+
+#slika_i_dugme
+{
+    float:left;
+    width:300px;
+    height:185px;
+    border-right:3px solid #404040;
+    text-align: center;
+}
+
+.izaberi_sliku
+{
+	float:left;
+	margin-left:10px;
+}
+
+#upload_slike
+{
+	
+}
+
+#btn_za_profilnu
+{
+	margin-top:5px;
+	background-color: #404040;
+    color:#FFF;
+}
+
+#profilna_slika
+{
+    padding: 15px;
+}
+
+#opis_profila
+{
+    color:#FFF;
+    text-align: justify;
+}
+
+#opis_profila h2
+{
+	text-align:center;
+}
+
+#ta_opis_profila
+{
+   
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#postavi_opis
+{
+    margin-left: 15px;
+}
+
+#dole_za_profil
+{
+    width:920px;
+    height:385px;
+    border:3px solid #404040;
+    margin-top: 10px;
+    color:#FFF;
+    text-align: center;
+}
+
+#vasi_komentari2
+{
+	width:910px;
+    height:100px;
+    background-color:#404040;
+    float:left;
+    margin:5px;
+    text-align: justify;
+}
+
+
+/*--------------- PROFIL SADRZAJ KRAJ --------*/
+
+/*--------------- GALERIJA SADRZAJ POCETAK --------*/
+
+#sredina_galerija
+{
+	width:100%;
+    min-height:650px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+	overflow:auto;
+}
+
+#galerija_sadrzaj
+{
+	width:960px;
+    min-height: 600px;
+    background-color: #101010;
+	color:#FFF;
+	overflow:auto;
+}
+
+#galerija_sadrzaj h2
+{
+	text-align:center;
+	padding:10px;
+}
+
+#slika_korisnika
+{
+	float:left;
+	margin:5px;
+	border:5px solid #404040;
+}
+
+/*--------------- GALERIJA SADRZAJ KRAJ --------*/
+
+/*--------------- ADMIN PANEL  POCETAK --------*/
+
+#admin_sredina
+{
+	width:100%;
+    min-height:650px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+	overflow:auto;
+}
+
+#admin_sadrzaj
+{
+	width:960px;
+    height: 600px;
+    background-color: #101010;
+	color:#FFF;
+	text-align:center;
+	padding-top:20px;
+}
+
+#admin_sredina_news
+{
+	width:100%;
+    min-height:650px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+	overflow:auto;
+}
+
+#admin_sadrzaj_news
+{
+	min-width:960px;
+	overflow:auto;
+    min-height: 600px;
+    background-color: #101010;
+	color:#FFF;
+	overflow:auto;
+}
+
+#admin_sadrzaj_news table
+{
+	color:#FFF;
+}
+
+.okvir
+{
+	background-color:#404040;
+	width:200px;
+	height:70px;
+	border-radius:5px;
+	margin-top:20px;
+	padding-top:23px;
+}
+
+.okvir:hover
+{
+	background-color:#FFCC00;
+}
+
+#admin_sadrzaj a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#admin_users
+{
+	min-width:960px;
+	overflow:auto;
+    min-height: 600px;
+    background-color: #101010;
+	color:#FFF;
+}
+
+#admin_users h1
+{
+	text-align:center;
+	padding-top:20px;
+}
+
+#admin_users h2
+{
+	text-align:center;
+	padding-top:20px;
+}
+
+#admin_users table
+{
+	color:#FFF;
+	text-align:center;
+}
+
+#dodaj_novog_korisnika
+{
+	background-color:#404040;
+	width:300px;
+	height:60px;
+	border-radius:5px;
+	text-align:center;
+	font-size:25px;
+	padding-top:20px;
+	color:#FFF;
+}
+
+#admin_users a
+{
+	text-decoration:none;
+}
+
+#dodaj_novog_korisnika:hover
+{
+	background-color:#FFCC00;
+}
+
+#izmeni_podatke
+{
+	font-size:25px;
+	background-color: #404040;
+    color:#FFF;
+}
+
+/*--------------- ADMIN PANEL KRAJ --------*/
+
+/*--------------- O AUTORU POCETAK --------*/
+
+#sredina_o_autoru
+{
+	width:100%;
+    height:650px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+#sadrzaj_o_autoru
+{
+	width:960px;
+    height: 600px;
+    background-color: #101010;
+	color:#FFF;
+}
+
+#moja_slika
+{
+	padding:5px;
+	width:300px;
+	float:left;
+	height:300px;
+}
+
+#o_autoru_opis
+{
+	width:640px;
+	height:300px;
+	float:left;
+	font-size:20px;
+	text-align:justify;
+	padding:5px;
+}
+
+#anketa
+{
+	width:600px;
+	height:200px;
+	background-color:#101010;
+	float:right;
+	margin-left:50px;
+	text-align:justify;
+}
+
+#anketa form
+{
+	margin-left:150px;
+	padding:10px;
+	font-size:25px;
+}
+
+#anketa_glasaj
+{
+	background-color: #404040;
+    color:#FFF;
+	font-size:20px;
+}
+
+#rezultati_anketa
+{
+	margin-left:400px;
+}
+
+/*---------------  O AUTORU KRAJ --------*/
+
+/*---------------  KONTAKT POCETAK --------*/
+
+#sredina_kontakt
+{
+	width:100%;
+    height:950px;
+    background-color: #404040;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+#sadrzaj_kontakt
+{
+	width:960px;
+    height: 900px;
+    background-color: #101010;
+	color:#FFF;
+	padding-top:50px;
+}
+
+#sadrzaj_kontakt table
+{
+	color:FFF;
+	text-align:justify;
+}
+
+#zvezda1
+{
+	color:#FF0000;
+}
+
+#zvezda2
+{
+	color:#FF0000;
+}
+
+#email_kontakt
+{
+	width:172px;
+}
+
+#th_form
+{
+	text-align:center;
+}
+
+#posalji_formu
+{
+	background-color: #404040;
+    color:#FFF;
+	font-size:20px;
+}
+
+
+
+/*---------------  KONTAKT KRAJ --------*/
+
+/*--------------- FOOTER POCETAK --------*/
+
+#footer
+{
+    width:100%;
+    height:125px;
+    background-color: #101010 ;
+    
+}
+
+#meniFooter
+{
+    width:100%;
+    height:50px;
+    background-color: #101010 ;
+    color:#FFF;
+    text-align:center;
+    font-size: 20px;
+}
+
+#meniFooter li
+{
+    display:inline-block;
+	padding:0px 5px;
+	text-align:center;
+}
+
+#meniFooter a
+{
+    text-decoration: none;
+    display:block;
+	padding:15px;
+    color:#FFF;
+}
+
+#meniFooter a:hover
+{
+	color:#FFCC00;
+}
+
+#drustveneMreze
+{
+    width:100%;
+    height:50px;
+    background-color:#101010;
+    text-align: center;
+}
+
+.logo
+{
+    padding-left: 100px;
+}
+
+#copyright
+{
+    width:100%;
+    height:25px;
+    background-color: #101010;
+    color:#FFF;
+    text-align: center;
+    
+}
+
+#copyright a
+{
+    text-decoration: none;
+    color:#FFF;
+}
+
+#copyright a:hover
+{
+    color:#FFCC00;
+}
+
+/*--------------- FOOTER KRAJ --------*/
+
