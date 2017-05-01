@@ -1,7 +1,5 @@
 <?php
-    $konekcija=mysql_connect('sql203.byethost17.com','','');
-
-   // $konekcija=new PDO('mysql:host=localhost:1234;dbname=itnovosti;', 'root', '');
+    $konekcija=mysql_connect('','','');
 
     $baza=mysql_select_db('') or die ('Baza nije dostupna!');
 
